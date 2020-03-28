@@ -8,6 +8,9 @@ import loadingPlugin from "./plugins/loading/loadingPlugin";
 import reloadPlugin from "./plugins/reload/reloadPlugin";
 
 import home from "../pages/home/models/home";
+import list from "../pages/list/models/list";
+import discover from "../pages/discover/models/discover";
+import my from "../pages/my/models/my";
 
 Vue.use(Vuex);
 export default new Vuex.Store({
@@ -17,6 +20,9 @@ export default new Vuex.Store({
   mutations,
   plugins: [loadingPlugin, reloadPlugin],
   modules: {
-    home
+    home,
+    list,
+    discover,
+    my
   }
 });

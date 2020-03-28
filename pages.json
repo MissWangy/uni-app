@@ -4,7 +4,39 @@
     {
       "path": "pages/home/home",
       "style": {
-        "navigationBarTitleText": "uni-app"
+        "navigationBarTitleText": "微信"
+      }
+    },
+    {
+      "path": "pages/list/list",
+      "style": {
+        "navigationBarTitleText": "通讯录"
+      }
+    },
+    {
+      "path": "pages/discover/discover",
+      "style": {
+        "navigationBarTitleText": "发现"
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#fff",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "color": "#000000",
+                "colorPressed": "#ccc",
+                "float": "right",
+                "fontSize": "22px",
+                "type": "menu"
+              }
+            ]
+          }
+        }
       }
     }
   ],
@@ -13,5 +45,34 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#42b983",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/homeSe.png",
+        "text": "微信"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "static/tabbar/list.png",
+        "selectedIconPath": "static/tabbar/listSe.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "static/tabbar/discover.png",
+        "selectedIconPath": "static/tabbar/discoverSe.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/mySe.png",
+        "text": "我"
+      }
+    ]
   }
 }
