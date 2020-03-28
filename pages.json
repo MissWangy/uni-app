@@ -56,6 +56,12 @@
       "style": {
         "navigationBarTitleText": "iframe通讯-子"
       }
+    },
+    {
+      "path": "pages/template/upload/upload",
+      "style": {
+        "navigationBarTitleText": "upload"
+      }
     }
   ],
   "globalStyle": {
