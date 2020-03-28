@@ -12,6 +12,7 @@ import list from "../pages/list/models/list";
 import discover from "../pages/discover/models/discover";
 import my from "../pages/my/models/my";
 import template from "../pages/template/models/template";
+import iframe from "../pages/template/iframe/models/iframe";
 
 Vue.use(Vuex);
 export default new Vuex.Store({
@@ -25,6 +26,7 @@ export default new Vuex.Store({
     list,
     discover,
     my,
-    template
+    template,
+    iframe
   }
 });

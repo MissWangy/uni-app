@@ -1,6 +1,7 @@
 <template>
   <view class="pages-home">
     <cell title="拖拽排序" is-link url="/pages/template/dragsort" />
+    <cell title="iframe" is-link url="/pages/template/iframe/iframe-fu" />
   </view>
 </template>
 

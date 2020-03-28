@@ -44,6 +44,18 @@
       "style": {
         "navigationBarTitleText": "拖拽排序"
       }
+    },
+    {
+      "path": "pages/template/iframe/iframe-fu",
+      "style": {
+        "navigationBarTitleText": "iframe通讯-父"
+      }
+    },
+    {
+      "path": "pages/template/iframe/iframe-zi",
+      "style": {
+        "navigationBarTitleText": "iframe通讯-子"
+      }
     }
   ],
   "globalStyle": {
