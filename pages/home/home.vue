@@ -1,12 +1,18 @@
 <template>
   <view class="pages-home">
-    <view class="pages-home__header">hello world</view>
+    <cell title="拖拽排序" is-link url="/pages/template/dragsort" />
   </view>
 </template>
 
 <script>
+import Cell from "../../components/vant/cell/index";
+import CellGroup from "../../components/vant/cell-group/index";
 export default {
   name: "pages-home",
+  components: {
+    Cell,
+    CellGroup
+  },
   onLoad() {},
   onUnload() {},
   methods: {}

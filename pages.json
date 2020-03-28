@@ -38,6 +38,12 @@
           }
         }
       }
+    },
+    {
+      "path": "pages/template/dragsort",
+      "style": {
+        "navigationBarTitleText": "拖拽排序"
+      }
     }
   ],
   "globalStyle": {

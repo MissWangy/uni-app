@@ -11,6 +11,7 @@ import home from "../pages/home/models/home";
 import list from "../pages/list/models/list";
 import discover from "../pages/discover/models/discover";
 import my from "../pages/my/models/my";
+import template from "../pages/template/models/template";
 
 Vue.use(Vuex);
 export default new Vuex.Store({
@@ -23,6 +24,7 @@ export default new Vuex.Store({
     home,
     list,
     discover,
-    my
+    my,
+    template
   }
 });
